@@ -4,7 +4,7 @@
 
 COVID-19 Growth Tracker is a Data Science project that analyzes and visualizes the spread of COVID-19 across different countries.
 
-The project focuses on understanding:
+This project focuses on understanding:
 
 - Total Confirmed Cases
 - Daily Growth Percentage
@@ -13,7 +13,7 @@ The project focuses on understanding:
 - Active Cases
 - Pandemic Severity Ranking System
 
-This project demonstrates data cleaning, feature engineering, normalization, and ranking techniques using Python.
+The objective is to extract meaningful insights from real-world data using data cleaning, feature engineering, normalization, and ranking techniques.
 
 ---
 
@@ -24,7 +24,7 @@ This project demonstrates data cleaning, feature engineering, normalization, and
 - Compare death and recovery rates
 - Build a custom Pandemic Severity Score
 - Rank countries based on pandemic impact
-- Visualize insights using graphs
+- Visualize insights using charts and graphs
 
 ---
 
@@ -43,16 +43,15 @@ This project demonstrates data cleaning, feature engineering, normalization, and
 
 ### 1️⃣ Data Loading
 - Imported dataset using Pandas
-- Checked data structure using `.info()` and `.head()`
+- Checked structure using `.info()` and `.head()`
 
 ### 2️⃣ Data Cleaning
 - Handled missing values
-- Sorted data by Country and Date
-- Removed inconsistencies
+- Sorted dataset by Country and Date
+- Ensured consistent formatting
 
 ### 3️⃣ Feature Engineering
 
 #### Daily Growth Percentage
 Calculated using:
-
 
